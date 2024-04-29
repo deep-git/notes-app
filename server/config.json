@@ -1,0 +1,3 @@
+{
+    "connectionString": "mongodb+srv://user:user1pass@cluster0.pj8fvkm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+}
