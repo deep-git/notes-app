@@ -85,14 +85,14 @@ const Register = () => {
             <Navbar />
 
             <div className="flex flex-col gap-3 items-center justify-center mt-28">
-                <div className="flex w-96">
+                <div className="flex w-[95%] sm:w-96">
                     <Link to="/" className="flex gap-2 justify-center items-center hover:bg-slate-100 hover:text-blue-500 px-2 py-2 rounded transition cursor-pointer">
                         <IoMdArrowRoundBack />
                         Back
                     </Link>
                 </div>
 
-                <div className="w-96 border rounded bg-white px-7 py-10">
+                <div className="w-[95%] sm:w-96 border rounded bg-white px-7 py-10">
                     <form onSubmit={handleRegister}>
                         <h4 className="text-2xl mb-7 font-semibold">Register</h4>
 
